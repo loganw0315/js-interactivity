@@ -8,8 +8,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: lightgray;
+    background: rgb(0, 0, 0);
     font-family: sans-serif;
+    background-image: url("movie-popcorn.jpg");
+    background-repeat: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 main {
@@ -19,7 +25,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: white;
+    background: rgb(146, 13, 13);
     padding: 20px;
     box-shadow: 0px 0px 10px gray;
 }
@@ -49,7 +55,7 @@ li {
 }
 
 button {
-    border: none;
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 10px;
     padding: 5px 15px;
     font-weight: bold;
@@ -58,4 +64,5 @@ button {
     margin-left: 20px;
     vertical-align: middle;
     float: right;
+    box-shadow: 2px 2px 2px rgb(54, 0, 0);
 }
